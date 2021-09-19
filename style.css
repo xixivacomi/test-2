@@ -1,0 +1,115 @@
+/* reset html */
+
+html {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.clear {
+    clear: both
+}
+
+
+/* bo viền */
+
+.bo-rad {
+    border-radius: 4px;
+    padding: 4px
+}
+
+#slider {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#slider .slider-img {
+    width: 100%;
+}
+
+#slider .slider-content {
+    position: absolute;
+    display: inline-block;
+}
+
+#slider .slider-content a {
+    background-color: rgb(241, 117, 117);
+    color: #fff;
+    text-decoration: none;
+}
+
+.main-header {
+    font-size: 15px;
+}
+
+#header {
+    height: 80px;
+}
+
+.header-nav {
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+
+#header .header-img {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.header-nav a {
+    text-decoration: none;
+    color: rgb(241, 117, 117);
+    padding: 8px;
+    text-align: center;
+    line-height: 80px;
+}
+
+.content-section {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#content .explore-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#content .explore-cake {
+    float: left;
+    margin-top: 30px;
+    position: relative;
+}
+
+.explore-cake .cake-img {
+    border-radius: 10px;
+    width: 200px;
+}
+
+#content {}
+
+#content .explore-cake {
+    padding: 12px;
+}
+
+#content .sub-area {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 21px;
+}
+
+#content .sub-area .sub-explore-cake {
+    color: #fff;
+}
+
+#footer {}
